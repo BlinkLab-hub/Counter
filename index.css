@@ -1,0 +1,71 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    font-size: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#button-container{
+    position: relative;
+    padding: 1rem;
+    height: 150px;
+    width: 55%;
+}
+button{
+    font: inherit;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    position: absolute;
+    box-shadow: 0 4px 4px green;
+}
+#decrease:hover, #decrease:focus{
+    transition-duration: 0.2s;
+    transform: translateX(-5px);
+    background-color: aliceblue;
+}
+#reset:hover, #reset:focus{
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+    background-color: rgb(255, 248, 240);
+}
+#increase:hover, #increase:focus{
+    transition-duration: 0.2s;
+    transform: translateX(5px);
+    background-color: aliceblue;
+}
+#decrease{
+    top: 0;
+    left: 0;
+}
+#reset{
+    bottom: 0;
+    left: 40%;
+}
+#increase{
+    top: 0;
+    right: 0;
+}
+#screen-container{
+    box-shadow: 0 4px 4px green;
+    border: 1px solid green;
+    background-color:beige;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#screen-value{
+    max-width: 100%;
+}
