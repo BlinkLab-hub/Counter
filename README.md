@@ -25,7 +25,8 @@ This project demonstrates basic DOM manipulation, event handling, and UI styling
 
 ## Preview
 
-<img width="679" height="603" alt="image" src="https://github.com/user-attachments/assets/18481b4a-049d-4039-8882-1dfd4eb23f8f" />
+<img width="1364" height="594" alt="image" src="https://github.com/user-attachments/assets/d6bd686f-72f7-4629-ae43-dd209b0cc257" />
+
 
 ---
 
